@@ -13,13 +13,26 @@ body{
     /*height: 100vh; Ocupa el 100% de la altura de la pantalla*/
     box-sizing: border-box;
 }
+.header{
+ padding: 2% 0% 0% 5%;
+}
+.header_menu{
+ display: flex;
+ gap: 80px;
+}
+.header_menu_link{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color:#22D4FD;
+}
 .tituloDestaque{
     color: #22D4FD;
 }
 .presentacion{
     display: flex; /*Flex-box*/
     align-items: center; /*Centra horizontalmente los elementos*/
-    margin: 5% 5%;
+    padding: 8% 5%;
     justify-content: space-between;
 }
 .presentacion_contenido{
