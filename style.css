@@ -10,7 +10,7 @@ de la caja padre, los enjaula*/
 body{
     background-color: black;
     color: #F6F6F6;
-    height: 100vh; /*Ocupa el 100% de la altura de la pantalla*/
+    /*height: 100vh; Ocupa el 100% de la altura de la pantalla*/
     box-sizing: border-box;
 }
 .tituloDestaque{
@@ -69,4 +69,13 @@ body{
 }
 .enlaces_link:hover{
     background-color: #272727;
+}
+.footer{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    background-color: #22D4FD;
+    padding: 24px;
+    text-align: center;
 }
