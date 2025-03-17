@@ -40,6 +40,14 @@ body{
 .enlaces{
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.subtitulo_enlaces{
+    font-size: 24px;/*Tamaño de la fuente*/
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
 }
 .enlaces_link{
     width: 100px;
